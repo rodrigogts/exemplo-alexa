@@ -1,0 +1,254 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "iniciar aviação",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "dúvida",
+            "tenho dúvida",
+            "ajuda",
+            "preciso de ajuda",
+            "pode me ajudar"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "agradeço pela atenção",
+            "muito obrigado",
+            "obrigado",
+            "estou satisfeito",
+            "concluir",
+            "sair",
+            "finalizar",
+            "terminar"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "StartIntent",
+          "slots": [],
+          "samples": [
+            "continuar",
+            "comessar",
+            "comesar",
+            "começar"
+          ]
+        },
+        {
+          "name": "BagagemIntent",
+          "slots": [],
+          "samples": [
+            "tirar dúvidas sobre bagagem",
+            "ver bagagens",
+            "bagagens",
+            "ver bagagem",
+            "dúvidas sobre bagagem",
+            "bagagem"
+          ]
+        },
+        {
+          "name": "DetalheBagagemIntent",
+          "slots": [],
+          "samples": [
+            "sou azul",
+            "Sou todo azul",
+            "Sou tudo azul"
+          ]
+        },
+        {
+          "name": "CheckInIntent",
+          "slots": [],
+          "samples": [
+            "desejo realizar chequin",
+            "desejo fazer chequin",
+            "quero realizar chequin",
+            "quero fazer chequin",
+            "fazer chequin",
+            "realizar chequin",
+            "check-in",
+            "chequin"
+          ]
+        },
+        {
+          "name": "DocumentoIntent",
+          "slots": [],
+          "samples": [
+            "número tudo azul",
+            "documento pessoal",
+            "código da reserva"
+          ]
+        },
+        {
+          "name": "IdDocumentoIntent",
+          "slots": [],
+          "samples": [
+            "um dois três quatro"
+          ]
+        },
+        {
+          "name": "AntecipateFlightIntent",
+          "slots": [],
+          "samples": [
+            "antecipar",
+            "antecipar voo",
+            "antecipação de voo"
+          ]
+        },
+        {
+          "name": "AntecipateFlightConfirmationIntent",
+          "slots": [],
+          "samples": [
+            "antecipar para hoje",
+            "para hoje",
+            "hoje"
+          ]
+        },
+        {
+          "name": "AntecipateFlightFinishIntent",
+          "slots": [],
+          "samples": [
+            "confirmar antecipação"
+          ]
+        },
+        {
+          "name": "CancelCheckinConfirmationIntent",
+          "slots": [],
+          "samples": [
+            "cancelamento de check-in",
+            "cancelar meu chequin",
+            "cancelar chequin",
+            "cancelamento de chequin"
+          ]
+        },
+        {
+          "name": "ContinueOrFinishIntent",
+          "slots": [],
+          "samples": [
+            "Não sou tudo azul",
+            "Desistir do cancelamento",
+            "Cancelar antecipação"
+          ]
+        },
+        {
+          "name": "CancelCheckinFinishIntent",
+          "slots": [],
+          "samples": [
+            "confirmar cancelamento do chequin",
+            "cancelar chequin",
+            "confirmar cancelamento"
+          ]
+        },
+        {
+          "name": "FlightStatusIntent",
+          "slots": [],
+          "samples": [
+            "status",
+            "Status do voo"
+          ]
+        },
+        {
+          "name": "CheckinConfirmPositiveIntent",
+          "slots": [],
+          "samples": [
+            "confirmar assento"
+          ]
+        },
+        {
+          "name": "CheckinConfirmNegativeIntent",
+          "slots": [],
+          "samples": [
+            "não confirmar meu chequin",
+            "não confirmar chequin",
+            "cancelar chequin"
+          ]
+        },
+        {
+          "name": "ChooseChairQuestionIntent",
+          "slots": [],
+          "samples": [
+            "escolher meu assento",
+            "escolher assento",
+            "escolher outro assento",
+            "selecionar meu assento",
+            "selecionar assento"
+          ]
+        },
+        {
+          "name": "ChooseBackChairIntent",
+          "slots": [],
+          "samples": [
+            "quero minha cadeira no fundo",
+            "quero uma cadeira no fundo",
+            "quero no fundo",
+            "no fundo",
+            "fundo"
+          ]
+        },
+        {
+          "name": "ChooseMiddleChairIntent",
+          "slots": [],
+          "samples": [
+            "quero uma cadeira no meio",
+            "quero minha cadeira no meio",
+            "quero no meio",
+            "no meio",
+            "meio"
+          ]
+        },
+        {
+          "name": "ChooseFrontChairIntent",
+          "slots": [],
+          "samples": [
+            "quero minha cadeira na frente",
+            "quero uma cadeira na frente",
+            "na frente",
+            "frente"
+          ]
+        },
+        {
+          "name": "ChooseWindowChairIntent",
+          "slots": [],
+          "samples": [
+            "por favor quero ficar na janela",
+            "quero ficar na janela por favor",
+            "me coloque na janela por favor",
+            "me coloque na janela",
+            "na janela por favor",
+            "por favor na janela",
+            "quero ficar na janela",
+            "desejo na janela",
+            "quero na janela",
+            "na janela",
+            "janela"
+          ]
+        },
+        {
+          "name": "ChooseNotWindowChairIntent",
+          "slots": [],
+          "samples": [
+            "desejo no corredor por favor",
+            "desejo no corredor",
+            "quero no corredor por favor",
+            "quero no corredor",
+            "no corredor por favor",
+            "corredor por favor",
+            "no corredor",
+            "corredor"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "22"
+}
